@@ -140,6 +140,7 @@ header.passed {
   justify-content: center;
   align-items: center;
   gap: 100px;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1200px) {
@@ -546,8 +547,8 @@ button {
   }
 
   .icons-flex {
-    flex-direction: column;
-    justify-content: flex-start;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
     gap: 50px;
   }
 
