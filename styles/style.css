@@ -526,6 +526,10 @@ button {
     gap: 40px;
   }
 
+  .icons-flex img {
+    width: 70px;
+  }
+
   section.hero {
     min-height: 70vh;
   }
