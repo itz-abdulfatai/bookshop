@@ -7,7 +7,7 @@ const scrollHandler = () => {
     if (!isScrolling) {
         window.requestAnimationFrame(() => {
             nav.classList.remove('active');
-            if (window.scrollY > 500) {
+            if (window.scrollY > 300) {
                 header.classList.add('passed');
             } else {
                 header.classList.remove('passed');
