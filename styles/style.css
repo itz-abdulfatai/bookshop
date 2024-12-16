@@ -142,6 +142,17 @@ header.passed {
   gap: 100px;
 }
 
+@media (max-width: 1200px) {
+  .icons-flex {
+
+    gap: 50px;
+  }
+  
+  .icons-flex img {
+    width: 120px;
+  }
+}
+
 .icons-flex img {
   width: 150px;
 }
@@ -526,9 +537,9 @@ button {
     gap: 40px;
   }
 
-  .icons-flex img {
+  /* .icons-flex img {
     width: 70px;
-  }
+  } */
 
   section.hero {
     min-height: 70vh;
